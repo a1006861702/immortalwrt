@@ -153,7 +153,7 @@ jobs:
         echo "immortalwrt-x86" >> release.txt
         echo "管理地址：192.168.1.1" >> release.txt
         echo "默认密码：无密码" >> release.txt
-        echo "插件清单：lucky,openvpn,netwizard" >> release.txt
+        echo "插件清单：lucky,openvpn" >> release.txt
         echo "status=success" >> $GITHUB_OUTPUT
 
     - name: 发布新版固件
